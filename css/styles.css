@@ -8,12 +8,22 @@ h1{
   font-size: 3.5rem;
   line-height: 1.5;
 }
+h2{
+  font-family: Montserrat,sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
 #title{
   background-color: #ff4c68;
   color:#fff;
 
 }
 
+/*
+navbar section
+*/
 .topContainer{
   padding: 3% 15%;
 }
@@ -34,22 +44,39 @@ h1{
 
 
 
+/*
+title section
+*/
 
 .downloadButton{
   margin: 5% 3% 5% 0;
 
 }
-
+.imgDiv{
+  position: relative;
+}
 .phone{
   width: 60%;
   transform: rotate(25deg) ;
-
+  position: absolute;
+  right: 30%;
 }
 
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+/*
+Features section
+*/
 
 
 #features{
-  margin: 5rem auto 10rem;
+  padding: 7% 15%;
+
+  background-color: #fff;
+
+  position: relative;
+  z-index: 1;
 }
 
 .icons{
@@ -76,4 +103,43 @@ h1{
   color: #8f8f8f;
   width: 60%;
   margin: auto;
+}
+
+/*
+Testimonials section
+*/
+
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+.testimonialImg{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.pressImg{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+
+}
+.pricingCol{
+  padding: 3% 2%;
 }
