@@ -1,29 +1,24 @@
 body{
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }
-h1{
 
-
+h1,h2,h3,h4,h5,h6 {
   font-weight: 900;
+}
+
+/*Headings*/
+
+.bigHeading {
+  font-weight: 900 ;
   font-size: 3.5rem;
   line-height: 1.5;
 }
-h2{
-  font-family: Montserrat,sans-serif;
-  font-weight: 900;
+.sectionHeading{
   font-size: 3rem;
   line-height: 1.5;
 }
-
-#title{
-  background-color: #ff4c68;
-  color:#fff;
-
-}
-
-/*
-navbar section
-*/
+/*navbar section*/
 .topContainer{
   padding: 3% 15%;
 }
@@ -44,13 +39,14 @@ navbar section
 
 
 
-/*
-title section
-*/
-
+/*title section*/
+#title{
+  background-color: #ff4c68;
+  color:#fff;
+  text-align: left;
+}
 .downloadButton{
   margin: 5% 3% 5% 0;
-
 }
 .imgDiv{
   position: relative;
@@ -61,42 +57,29 @@ title section
   position: absolute;
   right: 30%;
 }
-
 .container-fluid{
-  padding: 3% 15% 7%;
+  padding: 7% 15%;
 }
-/*
-Features section
-*/
 
+/*Features section*/
 
 #features{
-  padding: 7% 15%;
-
   background-color: #fff;
-
   position: relative;
   z-index: 1;
 }
-
 .icons{
-
   color: #ef8172;
-
 }
 .icons:hover{
   color: #ff4c68;
 }
 .featuresCol{
-  text-align: center;
   padding-top: 5rem;
 }
-
-
 .featuresHeader{
   padding-top: 4%;
   font-size: 1.5rem;
-
   font-weight: 550;
 }
 .featuresParagraph{
@@ -105,15 +88,15 @@ Features section
   margin: auto;
 }
 
-/*
-Testimonials section
-*/
+/*Testimonials section*/
 
 #testimonials{
-
-  text-align: center;
   background-color: #ef8172;
   color: #fff;
+}
+.testimonialText {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 .testimonialImg{
   width: 10%;
@@ -121,12 +104,8 @@ Testimonials section
   margin: 20px;
 }
 
-.carousel-item{
-  padding: 7% 15%;
-}
 #press{
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 .pressImg{
@@ -134,12 +113,40 @@ Testimonials section
   margin: 20px 20px 50px;
 }
 
-
+/*pricing text*/
 #pricing{
   padding: 100px;
-  text-align: center;
 
+}
+.priceText {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 .pricingCol{
   padding: 3% 2%;
+}
+
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+}
+#footer {
+  background-color: #fff;
+}
+.footerIcons{
+  margin: auto 0.438rem;
+  padding-bottom: 2%;
+}
+
+.copyright{
+  color: #8f8f8f;
+}
+@media (max-width: 1028px) {
+  title{
+    text-align: center;
+  }
+  .phone {
+    position: static;
+    transform: rotate(0deg);
+  }
 }
